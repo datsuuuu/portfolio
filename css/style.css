@@ -109,14 +109,18 @@ img {
       flex-wrap: wrap;
 }
 
-.center .cen_inner .work {
+center .cen_inner .work {
   cursor: pointer;
-  opacity: .7;
-  -webkit-transition: all 1s;
-  transition: all 1s;
 }
 
-.center .cen_inner .work:hover {
-  opacity: 1;
+@media screen and (min-width: 768px) {
+  .center .cen_inner .work {
+    opacity: .7;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .center .cen_inner .work:hover {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
