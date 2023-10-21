@@ -115,7 +115,7 @@ img {
             .work {
                 cursor: pointer;
 
-               @include mq(sp) {
+               @include mq(md) {
                    opacity: .7;
                 transition: all 1s;
 
