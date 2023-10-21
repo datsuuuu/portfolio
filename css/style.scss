@@ -114,13 +114,17 @@ img {
 
             .work {
                 cursor: pointer;
-                opacity: .7;
+
+               @include mq(sp) {
+                   opacity: .7;
                 transition: all 1s;
 
                 &:hover {
                     opacity: 1;
                 }
             }
+              
+           }
     }
 }
 
